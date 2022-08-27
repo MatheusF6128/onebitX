@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(../assets/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  max-width: 450px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.paragraph {
+  margin: 8px 0px;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+@media (max-width: 450px) {
+  .container1 {
+    max-width: auto;
+    font-size: 12px;
+  }
+  input {
+    size: 80vmax;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
